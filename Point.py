@@ -12,4 +12,8 @@ class Point(object):
 	def __add__(self, other):
 		""""""
 		return self.x + other.x, self.y + other.y
-		
+
+	def distance(self, other):
+		""""""
+		from math import hypot
+		math.hypot(self.x - other.x, self.y - other.y)
