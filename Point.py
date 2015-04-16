@@ -18,3 +18,6 @@ class Point(object):
 		from math import hypot
 		math.hypot(self.x - other.x, self.y - other.y)
 		# nice little comment here
+
+
+this is something that i want to change
